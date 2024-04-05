@@ -1,0 +1,2 @@
+# CollectRubbishAPP
+2022年大学生节能减排大赛智能回收垃圾桶APP
