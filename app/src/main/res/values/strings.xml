@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">找到了么</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">积分商城</string>
+    <string name="title_notifications">个人中心</string>
+    <string-array name="list">
+        <item>使用方法</item>
+        <item>注意事项</item>
+        <item>关于我们</item>
+    </string-array>
+    <string-array name="list1">
+        <item>密码修改</item>
+        <item>切换账号</item>
+        <item>隐私政策</item>
+        <item>关于</item>
+        <item>退出登录</item>
+    </string-array>
+</resources>

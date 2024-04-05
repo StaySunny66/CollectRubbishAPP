@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+  <Button
+      android:id="@+id/TO_ADD"
+      android:layout_width="290dp"
+      android:layout_height="45dp"
+      android:background="#F1665C"
+      android:text="新用户"
+      android:textSize="19dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.72" />
+
+  <Button
+      android:id="@+id/LOGIN"
+      android:layout_width="290dp"
+      android:layout_height="45dp"
+      android:background="#F1665C"
+      android:text="登录"
+      android:textSize="19dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.594" />
+
+  <EditText
+      android:id="@+id/LOGIN_USER"
+      android:layout_width="320dp"
+      android:layout_height="48dp"
+      android:ems="10"
+      android:hint="用户名"
+      android:inputType="text"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.494"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.245" />
+
+  <EditText
+      android:id="@+id/LOGIN_PASS"
+      android:layout_width="320dp"
+      android:layout_height="45dp"
+      android:ems="10"
+      android:hint="密码"
+      android:inputType="textPassword"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.494"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.386" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

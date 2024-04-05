@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shilight.rubbish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.找到了么"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".tzgg"
+            android:exported="true" />
+        <activity
+            android:name=".JIFENG"
+            android:exported="true" />
+        <activity
+            android:name=".rubbish"
+            android:exported="true" />
+        <activity
+            android:name=".ScanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".about"
+            android:exported="true" />
+        <activity
+            android:name=".fankui"
+            android:exported="true" />
+        <activity
+            android:name=".edit"
+            android:exported="true" />
+        <activity
+            android:name=".web"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".add"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
